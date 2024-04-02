@@ -29,7 +29,7 @@ const start = async () => {
   }
 
   try {
-    console.log("starting up..");
+    console.log("starting up!!!!");
 
     await mongoose.connect(process.env.MONGO_URI);
     console.log("Connected to MongoDb");
